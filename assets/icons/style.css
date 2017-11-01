@@ -1,0 +1,59 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?35beek');
+  src:  url('fonts/icomoon.eot?35beek#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?35beek') format('truetype'),
+    url('fonts/icomoon.woff?35beek') format('woff'),
+    url('fonts/icomoon.svg?35beek#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-pencil:before {
+  content: "\e905";
+}
+.icon-image:before {
+  content: "\e90d";
+}
+.icon-keyboard:before {
+  content: "\e955";
+}
+.icon-clipboard:before {
+  content: "\e9b8";
+}
+.icon-list2:before {
+  content: "\e9bb";
+}
+.icon-earth:before {
+  content: "\e9ca";
+}
+.icon-link:before {
+  content: "\e9cb";
+}
+.icon-spell-check:before {
+  content: "\ea12";
+}
+.icon-font:before {
+  content: "\ea5c";
+}
+.icon-text-height:before {
+  content: "\ea5f";
+}
+.icon-embed:before {
+  content: "\ea7f";
+}
